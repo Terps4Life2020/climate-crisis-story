@@ -2,27 +2,31 @@
 .headline {
   font-family: Helvetica;
   font-size: 35px;
-  line-height: 55px;
   color: black;
   font-weight: bold;
   text-align: left;
-  padding-top: 50px;
-  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .byline {
   font-family: Helvetica;
-  font-size: 16px;
-  color: red;
-  font-weight: bold;
+  font-size: 24px;
+  color: black;
   text-align: center;
-  padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.link {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
 }
 
 .subhead {
   font-family: Helvetica serif;
-  font-size: 24px;
+  font-size: 28px;
   color: black;
   font-weight: bold;
   text-align: left;
@@ -35,6 +39,7 @@
 font-family: Helvetica;
 font-size: 16px;
 text-align: left;
+line-height: 30px;
 padding-left: 0px;
 padding-top: 25px;
 padding-bottom: 25px;
@@ -81,13 +86,12 @@ img {
 
 .pull {
   font-family: Helvetica serif;
-  font-size: 20px;
-  color: red;
+  font-size: 23px;
+  color: #ff8533;
   font-weight: bold;
   text-align: left;
-  padding-top: 15px;
-  padding-left: 0;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .hero-container {
@@ -104,6 +108,7 @@ img {
   background-color: #f2f2f2;
   font-family: Helvetica;
   width: 1000px;
+  max-width: 100%;
   font-size: 14px;
   line-height: 25px;
   color: black;
@@ -126,4 +131,24 @@ img {
   font-size: 18px;
   color: black;
   text-align: left;
+}
+
+/* unvisited link */
+a:link {
+  color: orange;
+}
+
+/* visited link */
+a:visited {
+  color: red;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+.line {
+  background-color: orange;
+  width: 1000px;
 }
